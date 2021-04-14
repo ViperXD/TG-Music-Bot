@@ -20,20 +20,20 @@ Use The Buttons Below To Know More About Me..**
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url="https://github.com/ImJanindu/GroupMusicBot")
-                  ],[
+                        "⚡️ My Creator", url="https://t.me/VIVEKTVP"
+                    )
+                ],
+                [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/InfinityBOTs_Support"
+                        "💬 Group", url="https://t.me/NeonChatZ"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs"
+                        "📣 Channel ", url="https://t.me/NeonBotz"
                     )
-                ],[ 
-                    InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/Bot?startgroup=true"
-                    )]
+                ]
             ]
-        ),
+        )
+    ),
      disable_web_page_preview=True
     )
 

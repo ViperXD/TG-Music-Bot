@@ -11,9 +11,10 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎵
 
-I can play music in your group's voice call. Developed by [Jason](https://t.me/ImJanindu).
+✣ I am Music Player,
+✣ I Can Stream Music In Voice Chats Newely Introduced By Telegram...
 
-Add me to your group and play music freely!**
+Use The Buttons Below To Know More About Me..**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -29,7 +30,7 @@ Add me to your group and play music freely!**
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/JEGroupMusicPlayerBot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/Bot?startgroup=true"
                     )]
             ]
         ),
@@ -43,7 +44,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs")
+                        "📣 Channel", url="https://t.me/NeonBotz")
                 ]
             ]
         )
